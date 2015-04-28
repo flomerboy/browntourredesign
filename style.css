@@ -8,8 +8,8 @@ a {
 
 nav{
 	position: fixed;
-	padding-top: 15vh;
-	margin-left:20%;
+	padding-top: 10vh;
+	margin-left:15vw;
 }
 
 /*body text*/
@@ -34,10 +34,22 @@ li {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1em;
 	line-height: 1.5em;
-	padding-bottom: 1em;
+	padding-bottom: 1.5em;
 	padding-left: 1em; 
 	text-indent: -.8em;
 	color:rgba(0,0,0,.75);
+}
+
+li.subMenuContent{
+	text-indent:0;
+	padding-left: 0;
+	padding-bottom: 0;
+	font-size: .75em;
+	color:#000;
+}
+
+li.subMenuContent:before {
+    content: none;
 }
 
 li:before {
@@ -45,10 +57,35 @@ li:before {
     color: red; /* or whatever color you prefer */
 }
 
-.category{
+p.category{
 	padding-top: 1em;
 	padding-bottom: 1em;
 
+}
+
+ul.content{}
+
+ul.subMenu{
+	padding-top:.75em;
+	padding-left: 1.5em;
+}
+
+.hide{
+	display:none;
+}
+
+.seeLessContent{
+	height:6em;
+	overflow:hidden;
+}
+
+.seeMoreContent{
+}
+
+.see{
+	padding-left: 1em; 
+	color: rgba(255,50,50,.5);
+	font-size: .75em;
 }
 
 .container {
@@ -67,4 +104,9 @@ li:before {
 
 #logo{
 	padding-bottom: 1em;
+	width: 12.5vw;
+}
+
+div.footer{
+	height:20vh;
 }

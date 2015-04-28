@@ -1,0 +1,28 @@
+var logistics = {
+    "dayOf" : {
+        "0" : "Tours are given Monday-Friday at 9 am, 11 am, 1 pm, and 3 pm as well as select Saturdays in the fall at 11 am, 12 pm, and 1 pm.",
+        "1" : "Tours begin at the Welcome Center of the Stephen Robert ’62 Campus Center in Faunce House, but remember that you will need to pick up visitors from Information Sessions for the 11 am and 3 pm tours.  Information sessions are held Monday through Friday at 10:15 am and 2:15 pm as well as Saturdays at 10:15 am and 11:15 am. If you are giving the 9 am or 1 pm tour during the week or the 10 am tour on Saturday, remember that you must end the tour on time so that visitors may attend the information sessions.",
+        "2" : "Tours should be 1 hour long at most. The time limit exists to avoid disrupting the Admission Office’s Information Session schedule. Even if the tour starts late, be sure to end the tour on time.",
+        "3" : "Tour guides must sign into the computer next to the front desk to verify attendance 10 minutes before your tour begins. If you know you may run late let your mentor guide know in advance. If you are not able to be at your tour slot, it is your responsibility to find a replacement.",
+        "4" : "There is no dress code for tours, but please look professional. Please do not wear sunglasses, hats. leggings, clothing from other universities, chewing gum and smoking are all a no-go."
+    },
+
+    "kyle" : {
+        "name" : "Kyle Lengstorf",
+        "age" : "21",
+        "gender" : "male"
+    }
+}
+
+var content = {
+    "jason" : {
+        "name" : "Jason Lengstorf",
+        "age" : "24",
+        "gender" : "male"
+    },
+    "kyle" : {
+        "name" : "Kyle Lengstorf",
+        "age" : "21",
+        "gender" : "male"
+    }
+}
