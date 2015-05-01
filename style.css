@@ -6,14 +6,35 @@ a {
 	color:inherit;
 }
 
-nav{
+nav {
 	position: fixed;
 	padding-top: 10vh;
-	margin-left:15vw;
+	margin-left: 15vw;
+}
+
+nav > a {
+	display: block;
+}
+
+.subMenu {
+	padding-top:.75em;
+	padding-left: 1.5em;
+}
+
+.subMenu li {
+	text-indent:0;
+	padding-left: 0;
+	padding-bottom: 0;
+	font-size: .75em;
+	color:#000;
+}
+
+.subMenu li:before {
+    content: none;
 }
 
 /*body text*/
-p {
+p, nav > a {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -34,22 +55,12 @@ li {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1em;
 	line-height: 1.5em;
+
 	padding-bottom: 1.5em;
 	padding-left: 1em; 
 	text-indent: -.8em;
+
 	color:rgba(0,0,0,.75);
-}
-
-li.subMenuContent{
-	text-indent:0;
-	padding-left: 0;
-	padding-bottom: 0;
-	font-size: .75em;
-	color:#000;
-}
-
-li.subMenuContent:before {
-    content: none;
 }
 
 li:before {
@@ -61,13 +72,6 @@ p.category{
 	padding-top: 1em;
 	padding-bottom: 1em;
 
-}
-
-ul.content{}
-
-ul.subMenu{
-	padding-top:.75em;
-	padding-left: 1.5em;
 }
 
 .hide{
