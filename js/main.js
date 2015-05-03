@@ -44,6 +44,6 @@ $('button.see-more').click(function() {
   $(this).prev().toggleClass('more-content');
 
   var currentText = $(this).text();
-  $(this).text(currentText === "See more ▼" ? "See less ▲" : "See more ▼");
+  $(this).text(currentText === "SEE MORE ▼" ? "SEE LESS ▲" : "SEE MORE ▼");
 });
 

@@ -29,7 +29,7 @@ li {
 
 li:before {
     content: "- ";
-    color: red;
+    color: rgba(0,0,0,.75);
 }
 
 /* Header */
@@ -73,7 +73,9 @@ nav a.active {
   padding-left: 0;
   padding-bottom: 0;
 
-  font-size: .75em;
+  font-size: .65em;
+  letter-spacing: 1px; 
+  line-height: 1.5em; 
   color:#000;
 }
 
@@ -143,4 +145,9 @@ footer {
   margin-bottom: 2em;
 
   color: #999;
+}
+
+.sitePhoto{
+  width:100%;
+  padding-top:2em;
 }
