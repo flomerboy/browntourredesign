@@ -20,7 +20,7 @@ p {
 li {
   padding-bottom: 1.5em;
   padding-left: 1em; 
-  text-indent: -.8em;
+  text-indent: 0em;
 
   font-size: 1em;
   line-height: 1.5em;
@@ -28,7 +28,7 @@ li {
 }
 
 li:before {
-    content: "- ";
+    content: "  ";
     color: rgba(0,0,0,.75);
 }
 
@@ -92,7 +92,8 @@ nav a.active {
 }
 
 h2 {
-  padding: 2em 0;
+  padding-top: 3em;
+  padding-bottom: 1em;
 
   font-size: 2em;
   color: rgb(255,50,50);
@@ -108,7 +109,7 @@ h3 {
 }
 
 #tour-content section ul {
-  height: 6em;
+  height: 8em;
   overflow: hidden;
 }
 
